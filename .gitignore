@@ -1,0 +1,47 @@
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.cursor/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Local data — never commit field, participant, or analysis dumps
+data/
+**/data/
+
+# Spreadsheets / exports that often carry participant or field content
+*.csv
+*.tsv
+*.xlsx
+*.xls
+
+# Common analysis / notebook local artifacts
+*.parquet
+*.feather
+*.h5
+*.hdf5
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+.Rproj.user/
+
+# Archives that may hold local exports
+*.zip
+*.tar
+*.tar.gz
+*.7z
